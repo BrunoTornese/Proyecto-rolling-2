@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, rgb(2, 2, 95), rgb(46, 1, 46));
+}
+
+.principal {
+  background-image: url(../assets/img/desarrollador.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 50vh;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+p {
+  text-align: justify;
+}
+
+.caracteristicas {
+  background-color: rgb(218, 222, 249);
+}
+
+.imgPrincipales {
+  border-radius: 50%;
+  max-width: 380px;
+}
+
+.imgHistoriaGrande {
+  display: none;
+}
+
+.card {
+  height: 250px;
+  background-color: rgb(218, 222, 249);
+}
+
+.cards-iconos {
+  width: 80px;
+  border: none;
+}
+
+.card-equipo {
+  height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cards-integrantes {
+  border-radius: 100%;
+  height: 270px;
+  max-width: 250px;
+}
+
+.roles {
+  font-size: small;
+  color: rgb(141, 97, 181);
+}
+
+.bg-cards {
+  background-color: rgba(255, 238, 246, 0.735);
+}
+
+@media only screen and (max-width: 990px) {
+  .imgVisionMision {
+    display: none;
+  }
+  .imgPrincipales {
+    border-radius: 20px;
+  }
+  .imgHistoria {
+    display: none;
+  }
+  .imgHistoriaGrande {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
